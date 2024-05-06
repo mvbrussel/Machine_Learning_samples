@@ -1,5 +1,6 @@
-# Machine_Learning_samples
-Some short Machine Learning code samples
+# Machine Learning theory
+
+Notebooks explaining the statistics behind a set of machine learning models, including code for building the models from scratch (without using packages)
 
 ## 1. Linear regression and overfitting
 This notebook fits a set of polynomial regressions with varying degrees on periodic data. The generated plots provide a visualize the concepts of over- and under-fitting. Next, a regularized linear regression is implemented, a method that should prevent overfitting, and cross validation is used to determine the optimal hyperparameters (the regularization coefficient and the degree of the polynomial). The final model obtained shows the usefullness of regularized linear regression in this example, as the selected hyperparameters result in a well fitting prediction function.
